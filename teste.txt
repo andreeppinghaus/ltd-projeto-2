@@ -1,7 +1,4 @@
 versao1
 
-<<<<<<< HEAD
 versão2
-=======
-versão2
->>>>>>> branch-jean
+
