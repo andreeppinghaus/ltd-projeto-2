@@ -1,5 +1,7 @@
 versao1
 
+<<<<<<< HEAD
 versão2
-
-testandoo12
+=======
+versão2
+>>>>>>> branch-jean
