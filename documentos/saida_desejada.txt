@@ -1,0 +1,126 @@
+colunas do arquivo tabela_medidas_caseiras
+
+
+Nome Alimento, quantidade (g/mL), Energia (kcal), PTN (g), Gli(g), Lip.(g), Ca(mg), Fe(mg), Vit.C (mg), Vit.A (ug RE)
+
+Onde: 
+
+
+1. **Quantidade (g/mL)**: Refere-se à quantidade do alimento ou substância, medida em gramas (g) para sólidos ou mililitros (mL) para líquidos.
+   
+2. **Energia (kcal)**: Indica a quantidade de energia fornecida pelo alimento, medida em quilocalorias (kcal). Isso representa a energia que o corpo pode obter do alimento ao metabolizá-lo.
+
+3. **PTN (g)**: Representa a quantidade de proteínas presentes no alimento, medida em gramas (g). As proteínas são macronutrientes essenciais para a construção e reparação dos tecidos do corpo.
+
+4. **Gli (g)**: Refere-se à quantidade de carboidratos (glicídios) disponíveis no alimento, medida em gramas (g). Os carboidratos são uma fonte importante de energia para o corpo.
+
+5. **Lip. (g)**: Indica a quantidade de lipídios (gorduras) presentes no alimento, medida em gramas (g). As gorduras são outra fonte de energia e também desempenham papéis essenciais na absorção de vitaminas e na estrutura das células.
+
+6. **Ca (mg)**: Representa a quantidade de cálcio presente no alimento, medida em miligramas (mg). O cálcio é um mineral importante para a saúde dos ossos e dentes, além de desempenhar papéis em várias funções do corpo.
+
+7. **Fe (mg)**: Refere-se à quantidade de ferro presente no alimento, medida em miligramas (mg). O ferro é essencial para a formação de hemoglobina, que transporta oxigênio pelo corpo, e desempenha um papel vital na saúde geral.
+
+8. **Vit.C (mg)**: Indica a quantidade de vitamina C presente no alimento, medida em miligramas (mg). A vitamina C é um antioxidante que ajuda na absorção de ferro, fortalece o sistema imunológico e desempenha outros papéis importantes no corpo.
+
+9. **Vit.A (ug RE)**: Representa a quantidade de vitamina A presente no alimento, medida em microgramas de retinol equivalente (ug RE). A vitamina A é essencial para a saúde ocular, a função imunológica e a saúde da pele, entre outros benefícios.
+
+Essas siglas são comumente encontradas em tabelas de informações nutricionais e são úteis para entender a composição dos alimentos e seu valor nutricional.
+
+
+Siglas da tabela taco:
+
+Essas siglas correspondem aos seguintes parâmetros nutricionais:
+
+1. **id**: Identificação única para cada entrada na tabela, geralmente utilizado para referência ou indexação.
+
+2. **description**: Descrição do alimento ou produto alimentício.
+
+3. **moisture_%**: Percentagem de umidade presente no alimento, indicando o teor de água.
+
+4. **energy_kcal**: Quantidade de energia fornecida pelo alimento, medida em quilocalorias (kcal).
+
+5. **energy_kJ**: Quantidade de energia fornecida pelo alimento, medida em quilojoules (kJ).
+
+6. **protein_g**: Quantidade de proteínas presentes no alimento, medida em gramas (g).
+
+7. **lipidis_g**: Quantidade de lipídios (gorduras) presentes no alimento, medida em gramas (g).
+
+8. **cholesterol_mg**: Quantidade de colesterol presente no alimento, medida em miligramas (mg).
+
+9. **carbohydrate_g_100**: Quantidade de carboidratos presentes no alimento, medida em gramas (g) por 100 gramas do alimento.
+
+10. **carbohydrate_g_1**: Quantidade de carboidratos presentes no alimento, medida em gramas (g) por 1 grama do alimento.
+
+11. **fiber_g**: Quantidade de fibra alimentar presente no alimento, medida em gramas (g).
+
+12. **ash_g**: Quantidade de cinzas (minerais) presentes no alimento, medida em gramas (g).
+
+13. **calcium_mg**, **magnesium_mg**, **manganese_mg**, **phosphorus_mg**, **iron_mg**, **sodium_mg**, **potassium_mg**, **copper_mg**, **zinc_mg**: Quantidades de minerais presentes no alimento, medidas em miligramas (mg).
+
+14. **retinol_mcg**: Quantidade de retinol (vitamina A) presente no alimento, medida em microgramas (mcg).
+
+15. **re_mcg**: Unidade de medida de vitamina E, também conhecida como equivalente de retinol, medida em microgramas (mcg).
+
+16. **rae_mcg**: Unidade de medida de vitamina A, também conhecida como equivalente de retinol atividade, medida em microgramas (mcg).
+
+17. **thiamine_mg**, **riboflavin_mg**, **pyridoxine_mg**, **niacin_mg**, **c_mg**: Quantidades de vitaminas B1 (tiamina), B2 (riboflavina), B6 (piridoxina), B3 (niacina) e vitamina C, respectivamente, presentes no alimento, medidas em miligramas (mg).
+
+
+Eu quero juntar as duas tabelas:
+
+Exemplo da tabela de medidas caseiras:
+
+ACELGA 100,0 33,00 1,80 5,60 0,40 110,00 3,60 34,00 292,00 IBGE
+COL A CH PICADA 10,0 3,30 0,18 0,56 0,04 11,00 0,36 3,40 29,20
+COLS CH PICADA 6,0 1,98 0,11 0,34 0,02 6,60 0,22 2,04 17,52
+FOLHA G 20,0 6,60 0,36 1,12 0,08 22,00 0,72 6,80 58,40
+FOLHA M 10,0 3,50 0,18 0,56 0,04 11,00 0,36 3,40 29,20
+FOLHA P 3,0 0,99 0,05 0,17 0,01 3,30 0,11 1,02 8,76
+PT R R PICADA 60,0 19,80 1,08 3,36 0,24 66,00 2,16 2040 175,20
+
+Exemplo da tabela taco:
+74,"Acelga, crua","93,2",21,88,"1,4","0,1",NA,"4,6","0,046","1,1","0,6",43,10,"0,11",40,"0,3",1,240,"0,1","0,3",NA,,,"0,04",Tr,"0,16",Tr,"22,6"
+
+
+Resultado em JSON:
+
+id: 74
+nome: Acelga 
+medidas_em_gramas: 
+    "COLHER DE ARROZ CHEIA PICADA": 10,
+    "COLHER DE SOPA CHEIA PICADA": 6,
+    "FOLHA GRANDE": 20,
+    "FOLHA MEDIA": 10,
+    "FOLHA PEQUENA": 3,
+    "PRATO RASO PICADA": 60,
+
+"moisture_%":"93,2",
+"energy_kcal":21,
+"energy_kJ":88,
+"protein_g":1.4,
+"lipidis_g":0.1,
+"cholesterol_mg":"NA", //CONVERTER NA PARA NULL
+"carbohydrate_g_100":4.6,
+"carbohydrate_g_1":0.046,
+"fiber_g":1.1,
+"ash_g":0.6,
+"calcium_mg":43,
+"magnesium_mg":10,
+"manganese_mg":0.11,
+"phosphorus_mg":40,
+"iron_mg":0.3,
+"sodium_mg":1,
+"potassium_mg":240,
+"copper_mg":0.1,
+"zinc_mg":0.3,
+"retinol_mcg":"NA", //CONVERTER NA PARA NULL
+"re_mcg":NULL,
+"rae_mcg":NULL,
+"thiamine_mg": 0.04,
+"riboflavin_mg":"Tr",
+"pyridoxine_mg":0.16,
+"niacin_mg":"Tr",
+"c_mg":22.6
+
+
+
