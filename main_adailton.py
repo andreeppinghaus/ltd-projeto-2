@@ -10,4 +10,4 @@ def ler_csv_e_salvar_json(arquivo_csv, arquivo_json):
 
     print(dados)
 
-ler_csv_e_salvar_json('C:\\Users\\adail\\OneDrive\\Área de Trabalho\\Pasta LTD - PROJETO\\ltd-projeto-2\\documentos\\Taco_4a_edicao_2011.csv','C:\\Users\\adail\\OneDrive\\Área de Trabalho\\Pasta LTD - PROJETO\\ltd-projeto-2\\documentos\\Taco_4a_edicao_2011.json')
+ler_csv_e_salvar_json(r'C:\Users\Jean\Documents\Jean\Programação\GIT-E-GITHUB\ltd-projeto-2\documentos\Taco_4a_edicao_2011.csv',r'C:\Users\Jean\Documents\Jean\Programação\GIT-E-GITHUB\ltd-projeto-2\documentos\Taco_4a_edicao_2011.jason')
